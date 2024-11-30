@@ -21,6 +21,3 @@ class Solution:
 
         backTrack(nums[0], {})
         return res
-
-
-        
