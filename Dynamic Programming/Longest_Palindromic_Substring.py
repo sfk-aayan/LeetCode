@@ -4,7 +4,7 @@ class Solution(object):
 
         if length <= 1:
             return s
-
+            
         table = [[False for _ in range(length)] for _ in range(length)]
         max_len = 1
         max_str = s[0]
